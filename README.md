@@ -10,6 +10,9 @@ Organizes a copy and paste list from (either pip or brew), and organizes them in
 
 <img width="648" alt="Screenshot 2024-05-07 at 19 55 51" src="https://github.com/ASVPATM/packageorg/assets/159084542/7681fb29-234e-4cd4-a55e-9892374da19b">
 
+- Output
+
+<img width="646" alt="Screenshot 2024-05-07 at 20 00 56" src="https://github.com/ASVPATM/packageorg/assets/159084542/39041237-6235-47ac-98c4-10c1fc76fc21">
 
 **Brew Formulae Example**
 
