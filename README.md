@@ -1,6 +1,12 @@
 # packageorg
 Organizes a copy and paste list from (either pip or brew), and organizes them into a new file where each package has its own individual line
 
+Meant to be really simple so you can store your packages in a way so that you can quickly install reinstall them if needed
+
+- However you will need to keep updating/creating new txt files as you add more packages, which might not be that efficient 
+- Also looking to update script so that you can be able to provide an old list of organized packages and then the current list of your packages so that it can look at both lists and then remove the duplicates and add new packages to a new list txt
+
+Homebrew Bundler --> https://github.com/Homebrew/homebrew-bundle.git
 
 **Pip Packages Example**
 
