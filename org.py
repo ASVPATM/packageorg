@@ -11,17 +11,16 @@ def process_packages_file(input_file):
         # Read the content of the file as a single string
         file_content = file_path.read_text()
         
-        # Remove commas and split the content into words
-        words = file_content.replace(",", "").split()
+        # Split the content into lines and process each line
+        cleaned_packages = []
+        for line in file_content.strip().split('\n'):
+            # Split the line into individual package names and remove version numbers
+            packages = [re.sub(r'\d+(\.\d+)*', '', pkg.strip()) for pkg in line.split() if pkg.strip()]
+            # Filter out empty package names
+            cleaned_packages.extend([pkg for pkg in packages if pkg])
         
-        # Remove version numbers using regex and strip extra spaces
-        words_without_versions = [re.sub(r'\d+(\.\d+)*', '', word).strip() for word in words]
-        
-        # Filter out empty strings (caused by stripping version numbers)
-        filtered_words = [word for word in words_without_versions if word]
-        
-        # Join the words back into a single string with newlines
-        processed_content = "\n".join(filtered_words)
+        # Join the cleaned package names into a single string with newline characters
+        processed_content = "\n".join(cleaned_packages)
         
         return processed_content
     
@@ -68,4 +67,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
