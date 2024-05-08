@@ -4,16 +4,32 @@ Organizes a copy and paste list from (either pip or brew), and organizes them in
 
 **Pip Packages Example**
 
-<img width="788" alt="Screenshot 2024-05-07 at 19 49 08" src="https://github.com/ASVPATM/packageorg/assets/159084542/119dbc04-cd29-4323-bf27-5f70b12a7f02">
+<img width="500" alt="Screenshot 2024-05-07 at 19 49 08" src="https://github.com/ASVPATM/packageorg/assets/159084542/119dbc04-cd29-4323-bf27-5f70b12a7f02">
 
-- Paste into txt file 
+- Pasted into file && Output of Program                                     
 
-<img width="648" alt="Screenshot 2024-05-07 at 19 55 51" src="https://github.com/ASVPATM/packageorg/assets/159084542/7681fb29-234e-4cd4-a55e-9892374da19b">
-
-- Output
-
-<img width="646" alt="Screenshot 2024-05-07 at 20 00 56" src="https://github.com/ASVPATM/packageorg/assets/159084542/39041237-6235-47ac-98c4-10c1fc76fc21">
+<img width="500" alt="Screenshot 2024-05-07 at 19 55 51" src="https://github.com/ASVPATM/packageorg/assets/159084542/7681fb29-234e-4cd4-a55e-9892374da19b">
+<img width="500" alt="Screenshot 2024-05-07 at 20 00 56" src="https://github.com/ASVPATM/packageorg/assets/159084542/39041237-6235-47ac-98c4-10c1fc76fc21">
 
 **Brew Formulae Example**
 
-<img width="745" alt="Screenshot 2024-05-07 at 19 53 02" src="https://github.com/ASVPATM/packageorg/assets/159084542/13f7af7e-5acc-44c3-ad3a-6e1903588a7f">
+<img width="500" alt="Screenshot 2024-05-07 at 19 53 02" src="https://github.com/ASVPATM/packageorg/assets/159084542/13f7af7e-5acc-44c3-ad3a-6e1903588a7f">
+
+- Pasted into file && Output of Program
+
+<img width="500" alt="Screenshot 2024-05-07 at 20 18 17" src="https://github.com/ASVPATM/packageorg/assets/159084542/b500d14b-50d3-4256-b067-a1be7cd42bd1">
+<img width="500" alt="Screenshot 2024-05-07 at 20 17 16" src="https://github.com/ASVPATM/packageorg/assets/159084542/31c0bdd8-a87a-48ce-914e-e08d0c539c81">
+
+- script
+
+$$$ python3 org.py
+
+$$$ Enter the path to the input text file: xxxxxxxx
+
+$$$ (prints output)
+
+$$$ Do you want to write the processed content to a new file? (yes/no): yes
+
+$$$ Enter the path to the output text file: xxxxxxxx
+
+$$$ Processed content written to 'xxxxxxxx'
